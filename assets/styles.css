@@ -43,6 +43,7 @@ body{
 }
 img,svg{max-width:100%;display:block}
 a{color:inherit;text-decoration:none}
+a[href^="tel:"]{white-space:nowrap}
 button{font-family:inherit;cursor:pointer;border:none;background:none}
 h1,h2,h3,h4{font-family:var(--font-display);font-weight:700;line-height:1.1;letter-spacing:-.02em;color:var(--ink);margin:0}
 p{margin:0}
