@@ -129,7 +129,7 @@ body.menu-open .burger span::after{top:0;transform:rotate(-45deg)}
 .hero-card{position:relative;background:linear-gradient(160deg,#2A2A31,#1A1A1F);border-radius:var(--r-xl);
   padding:38px 34px;color:#fff;box-shadow:var(--shadow-lg);overflow:hidden}
 .hero-card::before{content:"";position:absolute;top:-40%;right:-30%;width:80%;height:120%;
-  background:radial-gradient(circle,rgba(241,90,0,.55),transparent 62%);filter:blur(10px)}
+  background:radial-gradient(circle,rgba(241,90,0,.5),transparent 60%)}
 .hero-card__emblem{width:96px;height:96px;position:relative;z-index:1;filter:drop-shadow(0 10px 24px rgba(241,90,0,.5))}
 .hero-card__title{position:relative;z-index:1;font-family:var(--font-display);font-weight:700;font-size:23px;margin-top:22px}
 .hero-card__title span{color:var(--orange-500)}
