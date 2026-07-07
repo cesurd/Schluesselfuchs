@@ -211,8 +211,7 @@ body.menu-open .burger span::after{top:0;transform:rotate(-45deg)}
 .coverage__note{text-align:center;margin-top:26px;color:var(--muted);font-size:14.5px}
 
 /* ---------- Why / features split ---------- */
-.why{background:var(--ink);color:#fff;border-radius:clamp(20px,3vw,34px);padding:clamp(38px,5vw,68px);position:relative;overflow:hidden}
-.why::before{content:"";position:absolute;bottom:-40%;right:-10%;width:55%;height:120%;background:radial-gradient(circle,rgba(241,90,0,.28),transparent 62%)}
+.why{background:radial-gradient(105% 85% at 100% 108%,rgba(241,90,0,.20),rgba(241,90,0,.06) 32%,transparent 60%),linear-gradient(158deg,#26262e,#161619);color:#fff;border-radius:clamp(20px,3vw,34px);padding:clamp(38px,5vw,68px);position:relative;overflow:hidden}
 .why__grid{position:relative;z-index:1;display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,4vw,54px);align-items:center}
 .why h2{color:#fff;font-size:clamp(26px,3.6vw,42px)}
 .why h2 span{color:var(--orange-500)}
