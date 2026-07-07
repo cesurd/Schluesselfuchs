@@ -100,8 +100,10 @@ h2.title{font-size:clamp(28px,4.4vw,46px)}
 .header__phone small{font-size:11px;color:var(--muted);font-weight:600;text-transform:uppercase;letter-spacing:.08em}
 .header__phone b{font-family:var(--font-display);font-size:18px;color:var(--ink);white-space:nowrap}
 .burger{display:none;width:46px;height:46px;border-radius:12px;background:var(--ink);position:relative}
-.burger span,.burger span::before,.burger span::after{content:"";position:absolute;left:13px;width:20px;height:2px;background:#fff;border-radius:2px;transition:.3s var(--ease)}
-.burger span{top:22px}.burger span::before{top:-6px}.burger span::after{top:6px}
+.burger span,.burger span::before,.burger span::after{content:"";position:absolute;width:20px;height:2px;background:#fff;border-radius:2px;transition:.3s var(--ease)}
+.burger span{left:13px;top:22px}
+.burger span::before,.burger span::after{left:0}
+.burger span::before{top:-6px}.burger span::after{top:6px}
 body.menu-open .burger span{background:transparent}
 body.menu-open .burger span::before{top:0;transform:rotate(45deg)}
 body.menu-open .burger span::after{top:0;transform:rotate(-45deg)}
