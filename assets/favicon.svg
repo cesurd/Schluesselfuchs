@@ -1,20 +1,15 @@
 <svg viewBox="0 0 120 120" xmlns="http://www.w3.org/2000/svg">
   <defs><clipPath id="b"><rect x="0" y="0" width="120" height="120" rx="26"/></clipPath></defs>
   <g clip-path="url(#b)">
-    <rect x="0" y="0" width="61" height="120" fill="#F15A00"/>
-    <rect x="59" y="0" width="61" height="120" fill="#26262B"/>
-    <path d="M31 11 L54 26 L41 41 Q33 30 31 11 Z" fill="#FFFFFF"/>
-    <path d="M89 11 L66 26 L79 41 Q87 30 89 11 Z" fill="#FFFFFF"/>
-    <path d="M36 18 L50 27 L43 35 Q38 28 36 18 Z" fill="#26262B"/>
-    <path d="M84 18 L70 27 L77 35 Q82 28 84 18 Z" fill="#26262B"/>
-    <path d="M37 29 L83 29 Q81 48 72 56 Q66 61 60 74 Q54 61 48 56 Q39 48 37 29 Z" fill="#FFFFFF"/>
-    <path d="M40 31 L80 31 Q78 46 70 53 Q65 57 60 61 Q55 57 50 53 Q42 46 40 31 Z" fill="#F15A00"/>
-    <path d="M47 40 Q52 38 56 42 Q52 46 47 44 Z" fill="#FFFFFF"/>
-    <path d="M73 40 Q68 38 64 42 Q68 46 73 44 Z" fill="#FFFFFF"/>
-    <path d="M55.5 62 L64.5 62 L60 68.5 Z" fill="#26262B"/>
-    <rect x="56.2" y="70" width="7.6" height="32" rx="2.4" fill="#FFFFFF"/>
-    <circle cx="60" cy="76.5" r="3" fill="#26262B"/>
-    <rect x="63.8" y="86" width="7.5" height="4.6" rx="1.4" fill="#FFFFFF"/>
-    <rect x="63.8" y="94.5" width="5.6" height="4.6" rx="1.4" fill="#FFFFFF"/>
+    <rect x="0" y="0" width="60" height="120" fill="#EF6416"/>
+    <rect x="60" y="0" width="60" height="120" fill="#2C2C33"/>
+    <path d="M24 11 L42 21 L60 25 L78 21 L96 11 L94 45 L72 55 L64 67 L60 70 L56 67 L48 55 L26 45 Z" fill="#EF6416"/>
+    <path d="M30 19 L40 25 L32 29 Z" fill="#242429"/>
+    <path d="M90 19 L80 25 L88 29 Z" fill="#242429"/>
+    <path d="M24 11 L42 21 L60 25 L78 21 L96 11 L94 45 L72 55 L64 67 L60 70 L56 67 L48 55 L26 45 Z" fill="none" stroke="#FFFFFF" stroke-width="3.4" stroke-linejoin="miter" stroke-miterlimit="8"/>
+    <path d="M44 45 L54 47.5 L53 50 L44 47.5 Z" fill="#FFFFFF"/>
+    <path d="M76 45 L66 47.5 L67 50 L76 47.5 Z" fill="#FFFFFF"/>
+    <path d="M55.5 73 L56 67.5 Q60 66.3 64 67.5 L64.5 73 L65 74 L68.5 75.8 L68.5 79 L65 80.5 L65 84.5 L68.5 86 L68.5 88 L65 89.5 L65 92.5 L68.3 94 L68.3 96 L65 97.5 L65 100 L68.7 101.5 L68.7 104 L65 108.8 L60 112 L55.5 105 Z" fill="#FFFFFF"/>
+    <path d="M56 61 L64 61 L60 65.5 Z" fill="#242429"/>
   </g>
 </svg>
